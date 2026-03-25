@@ -30,7 +30,6 @@ INITSCRIPT_PACKAGES = "${PN}"
 INITSCRIPT_NAME:${PN} = "aesdsocket-start-stop"
 INITSCRIPT_PARAMS:${PN} = "defaults 99"
 
-
 do_configure () {
 	:
 }
